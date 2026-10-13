@@ -1,0 +1,36 @@
+name: ecovillage
+description: Eco Smart - Monitoring Pengendalian Sampah Plastik Laut, Desa Tanjung Harapan
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ============================================================
+  # FIREBASE READY - Uncomment saat migrasi ke Firebase
+  # ============================================================
+  # firebase_core: ^2.24.2
+  # firebase_auth: ^4.16.0
+  # cloud_firestore: ^4.14.0
+
+  # Session management - WAJIB dipertahankan
+  shared_preferences: ^2.2.2
+
+  # Format tanggal Indonesia
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/iconEco.png
